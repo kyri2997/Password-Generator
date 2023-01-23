@@ -1,0 +1,77 @@
+@font-face {
+  font-family: Karla;
+  src: url(Karla-VariableFont_wght.ttf);
+}
+
+body {
+    margin: 0px 0px 0px 52px;
+    background: #1F2937;
+}
+
+#head {
+    color: white;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    margin-bottom:10px;
+}
+
+#sub {
+    color: #10B981;
+}
+
+h2 {
+    margin:0px;
+    color: #D5D4D8;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+button {
+    margin-top: 40px;
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    padding: 9px 17px 9px 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.line {
+    border: 1px solid #2F3E53;
+    width: 440px;
+    /* padding:5px; */
+}
+
+.wrapper {
+    display:flex; 
+    justify-content: flex-start;
+}
+
+.pw-box {
+    margin-top: 20px;
+    margin-right: 20px;
+    background: #273549;
+    border-radius: 6px;
+    width: 200px;
+    color: #55F991;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+}
